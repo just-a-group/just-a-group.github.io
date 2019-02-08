@@ -1,6 +1,8 @@
 body {
     margin: 16px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #181922;
+    color: #dddebc;
 }
 
 p {
@@ -13,6 +15,7 @@ p.big {
 
 a {
     text-decoration: none;
+    color: #7784f3;
 }
 
 div.container {
