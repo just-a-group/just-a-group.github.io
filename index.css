@@ -1,5 +1,5 @@
 body {
-    margin: 16px;
+    /* margin: 16px; */
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #181922;
     color: #dddebc;
@@ -18,7 +18,12 @@ a {
     color: #7784f3;
 }
 
-div.container {
+div.mainContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,5 +31,12 @@ div.container {
 
 div.main {
     margin: auto;
-    padding-bottom: 24px;
+    padding-bottom: 8px;
+}
+
+.background {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
 }
