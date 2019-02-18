@@ -12,6 +12,10 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+/**
+ * This is very bad code... I should refactor this...
+ * eventually
+ */
 (function () {
     var NUMBER_OF_POINTS = 25;
     var Connection = /** @class */ (function () {
@@ -260,8 +264,8 @@ var __extends = (this && this.__extends) || (function () {
     function updateCanvasSize() {
         var dpr = window.devicePixelRatio || 1;
         if (width !== innerWidth || height !== innerHeight) {
-            canvas.width = innerWidth * dpr;
-            canvas.height = innerHeight * dpr;
+            canvas.width = width = innerWidth * dpr;
+            canvas.height = height = innerHeight * dpr;
         }
     }
     function updatePoints() {

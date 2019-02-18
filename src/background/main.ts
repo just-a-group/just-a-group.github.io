@@ -304,8 +304,8 @@
         const dpr = window.devicePixelRatio || 1;
 
         if (width !== innerWidth || height !== innerHeight) {
-            canvas.width = innerWidth * dpr;
-            canvas.height = innerHeight * dpr;
+            canvas.width = width = innerWidth * dpr;
+            canvas.height = height = innerHeight * dpr;
         }
     }
 
