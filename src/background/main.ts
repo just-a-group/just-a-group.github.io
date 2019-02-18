@@ -1,3 +1,7 @@
+/**
+ * This is very bad code... I should refactor this...
+ * eventually
+ */
 (function () {
 
     const NUMBER_OF_POINTS = 25;
